@@ -38,3 +38,6 @@
   display: flex;
   align-items: center;
 }
+.friends__section-title {
+  margin-left: 15px;
+}
