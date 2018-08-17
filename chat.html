@@ -6,17 +6,17 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Chat</title>
   </head>
-  <body>
-    <header class="top-header">
+  <body class="body-chat">
+    <header class="top-header chat-header">
       <div class="header__top">
         <div class="header__column">
 
-        </div>
+        
           <i class="fa fas fa-plane"></i>
           <i class="fa fa-wifi"></i>
           <!-- wifi icon -->
-
         </div>
+        
         <div class="header__column">
           <span class="header__time">18:38</span>
         </div>
@@ -24,9 +24,7 @@
           <i class="fa fa-moon-o"></i>
           <i class="fa fa-bluetooth-b"></i>
           <span class="header__battery">100%
-          <i class="fa fa-battery-full">
-
-          </i></span>
+          <i class="fa fa-battery-full"></i></span>
         </div>
       </div>
       <div class="header__bottom">
@@ -38,7 +36,7 @@
         <div class="header__column">
           <span class="header__text">Lynn</span>
         </div>
-        <div class="header__column"></div>
+        <div class="header__column">
           <i class="fa fa-search"></i>
           <i class="fa fa-bars"></i>
       </div>
@@ -49,20 +47,23 @@
 
       </div>
       <div class="chat__message chat__message-from-me">
-        <span class="chat__message-title">17:55</span>
+        <span class="chat__message-time">17:55</span>
         <span class="chat__message-body">
           Hello! This is a test message.
         </span>
       </div>
       <div class="chat__message chat__message--to-me">
-        <img src="images/avatar.png" alt="" class="chat__message-avatar">
+        <img src="images/avatar.png" alt="" class="chat__message-avatar"/>
         <div class="chat__message-center">
           <h3 class="chat__message-username">LYNN</h3>
+          
           <span class="chat__message-body">
             And this is an answer.
           </span>
+          <span class="chat__message-time">19:55</span>
+          
         </div>
-        <span class="chat__message-title">19:55</span>
+       
       </div>
     </main>
 
@@ -72,7 +73,7 @@
         <input type="text">
         <i class="fa fa-smile-o"></i>
         <span class="record-message">
-          <i class="fa fa-microphone"></i>
+          <i class="fa fa-microphone fa-lg"></i>
         </span>
       </div>
     </div>

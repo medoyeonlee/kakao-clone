@@ -1,6 +1,6 @@
 .search-bar {
   padding: 10px 15px;
-  position: relative;
+  position: sticky;
 }
 
 .search-bar input {
