@@ -1,3 +1,9 @@
+@media only screen and (min-width:530px){
+    .bigScreenText{
+        display:flex;
+    }
+
+}
 @media only screen 
   and (min-width: 375px) 
   and (max-width: 667px) 
