@@ -1,9 +1,9 @@
-/* @media only screen and (min-width:530px){
+@media only screen and (min-width:530px){
     .bigScreenText{
         display:flex;
     }
 
-} */
+}
 @media only scree and (min-resolution: 192dpi)
 {
     .bigScreenText{
