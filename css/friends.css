@@ -28,8 +28,20 @@
   width: 40px;
   border-radius: 50%;
   margin-right: 15px;
+  transform: rotateY(70deg);
+  animation:1s rotateFriend infinite ease-in-out;
 }
-
+@keyframes rotateFriend{
+  0%{
+    transform: rotateY(0deg);
+  }
+  50%{
+    transform:rotateY(180deg) scale(0.5);
+  }
+  100%{
+    transform:rotatey(360deg);
+  }
+}
 .friends__section-row a {
   text-decoration: none;
   color: inherit;

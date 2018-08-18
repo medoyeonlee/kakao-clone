@@ -51,6 +51,7 @@
     padding: 10px 5px;
     border-radius: 5px;
     margin-right: 5px;
+    
     background-color: #ffffff;
 }
 
@@ -69,6 +70,8 @@
 .chat__message-center {
     display: flex;
     flex-direction: column;
+    /* justify-content: flex-start;
+    align-items: flex-end; */
 }
 
 .type-message {

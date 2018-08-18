@@ -1,6 +1,6 @@
 .top-header--transparent {
   background-color:transparent;
-  z-index: 2;
+  /* z-index: 2; */
 }
 .profile .profile__header {
   height: 80vh;  /* view for height*/
